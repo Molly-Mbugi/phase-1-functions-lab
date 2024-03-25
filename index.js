@@ -1,7 +1,7 @@
 // Function to calculate the distance in blocks from the headquarters
 function distanceFromHqInBlocks(location) {
-    const hq = 42; // Headquarters
-    return Math.abs (location - hq); // Calculate absolute difference between location and headquarters
+    const hq = 43; // Headquarters
+    return Math.abs(location - hq); // Calculate absolute difference between location and headquarters
 }
 
 // Function to calculate the distance in feet from the headquarters
@@ -35,5 +35,3 @@ function calculatesFarePrice(start, destination) {
 
     return fare; // Return calculated fare
 }
-
-    
